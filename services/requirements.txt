@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+requests
+yfinance
+feedparser
+sec-edgar-downloader
+langchain
+pandas
+faiss-cpu
+transformers
+torch
+whisper
+TTS
