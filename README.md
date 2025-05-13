@@ -50,23 +50,23 @@ Sure! Here's your updated repository structure formatted correctly in Markdown �
 Finance\_Assistant/
 │
 ├─ agents/                      # Agents
-│   ├─ api\_agent/
-│   ├─ scraping\_agent/
-│   ├─ retrieving\_agent/
-│   ├─ language\_agent/
-│   └─ voice\_agent/
+│   ├─ api_agent.py
+│   ├─ scraping_agent.py
+│   ├─ retriever_agent.py
+│   ├─ language_agent.py
+│   └─ voice_agent.py
 │
 ├─ services/                    # FastAPI microservices handled by orchestrator
 │   ├─ Dockerfile
 │   ├─ requirements.txt
-│   ├─ api\_service/
-│   ├─ scraping\_service/
-│   ├─ retrieving\_service/
-│   ├─ language\_service/
-│   ├─ voice\_service/
-│   └─ orchestrator\_service/
+│   ├─ api_service.py
+│   ├─ scraping_service.py
+│   ├─ retriever_service.py
+│   ├─ language_service.py
+│   ├─ voice_service.py
+│   └─ orchestrator_service.py
 │
-├─ streamlit\_app/               # Frontend UI (app.py + requirements)
+├─ streamlit_app/               # Frontend UI (app.py + requirements)
 │
 ├─ docker-compose.yml
 │
