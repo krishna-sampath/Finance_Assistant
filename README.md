@@ -41,28 +41,38 @@ This system polls live market data, scrapes company filings, runs quantitative a
 
 ---
 
+Sure! Here's your updated repository structure formatted correctly in Markdown — ready to paste into your README:
+
 ## 📂 Repository Structure
+
+```
 
 Finance\_Assistant/
 │
-├─ agents/                # Agents
+├─ agents/                      # Agents
 │   ├─ api\_agent/
 │   ├─ scraping\_agent/
 │   ├─ retrieving\_agent/
 │   ├─ language\_agent/
 │   └─ voice\_agent/
-├─ services        # FastAPI microservices handled by orchestrator inside
-│   ├─ DockerFile/
-│   ├─ requirements.txt/
+│
+├─ services/                    # FastAPI microservices handled by orchestrator
+│   ├─ Dockerfile
+│   ├─ requirements.txt
 │   ├─ api\_service/
 │   ├─ scraping\_service/
 │   ├─ retrieving\_service/
 │   ├─ language\_service/
 │   ├─ voice\_service/
 │   └─ orchestrator\_service/
-├─ streamlit\_app/         # Frontend UI (app.py + requirements)
+│
+├─ streamlit\_app/               # Frontend UI (app.py + requirements)
+│
 ├─ docker-compose.yml
-└─ README.md              # ← You are here
+│
+└─ README.md                    # ← You are here
+
+```
 ---
 
 ## 🚀 Getting Started
@@ -110,12 +120,6 @@ http://localhost:8501
 * **RAG-Powered Narratives**: LLM synthesizes coherent market narratives.
 * **Voice-First Interface**: From Whisper STT to Coqui TTS for end-to-end spoken briefings.
 * **Modular Microservices**: Swap in your favorite APIs, vector stores, or LLM frameworks.
-
----
-
-## 📄 License
-
-This project is open-source under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
